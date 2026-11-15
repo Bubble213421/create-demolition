@@ -1,0 +1,56 @@
+{
+  "variants": {
+    "armed=false,facing=up": {
+      "model": "createdemolition:block/boom_clay_charge"
+    },
+    "armed=true,facing=up": {
+      "model": "createdemolition:block/boom_clay_charge_armed"
+    },
+    "armed=false,facing=down": {
+      "model": "createdemolition:block/boom_clay_charge",
+      "x": 180
+    },
+    "armed=true,facing=down": {
+      "model": "createdemolition:block/boom_clay_charge_armed",
+      "x": 180
+    },
+    "armed=false,facing=north": {
+      "model": "createdemolition:block/boom_clay_charge",
+      "x": 90
+    },
+    "armed=true,facing=north": {
+      "model": "createdemolition:block/boom_clay_charge_armed",
+      "x": 90
+    },
+    "armed=false,facing=south": {
+      "model": "createdemolition:block/boom_clay_charge",
+      "x": 90,
+      "y": 180
+    },
+    "armed=true,facing=south": {
+      "model": "createdemolition:block/boom_clay_charge_armed",
+      "x": 90,
+      "y": 180
+    },
+    "armed=false,facing=east": {
+      "model": "createdemolition:block/boom_clay_charge",
+      "x": 90,
+      "y": 90
+    },
+    "armed=true,facing=east": {
+      "model": "createdemolition:block/boom_clay_charge_armed",
+      "x": 90,
+      "y": 90
+    },
+    "armed=false,facing=west": {
+      "model": "createdemolition:block/boom_clay_charge",
+      "x": 90,
+      "y": 270
+    },
+    "armed=true,facing=west": {
+      "model": "createdemolition:block/boom_clay_charge_armed",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

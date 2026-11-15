@@ -1,0 +1,63 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "createdemolition:blasting_cap",
+      "count": 2
+    }
+  ],
+  "transitional_item": {
+    "id": "createdemolition:incomplete_blasting_cap"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdemolition:incomplete_blasting_cap"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "id": "createdemolition:incomplete_blasting_cap"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createdemolition:incomplete_blasting_cap"
+        },
+        {
+          "item": "createdemolition:creeper_essence"
+        }
+      ],
+      "results": [
+        {
+          "id": "createdemolition:incomplete_blasting_cap"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createdemolition:incomplete_blasting_cap"
+        }
+      ],
+      "results": [
+        {
+          "id": "createdemolition:incomplete_blasting_cap"
+        }
+      ]
+    }
+  ]
+}

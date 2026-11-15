@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "createdemolition:volatile_extract"
+    },
+    {
+      "item": "createdemolition:slime_gel"
+    },
+    {
+      "item": "createdemolition:slime_gel"
+    }
+  ],
+  "results": [
+    {
+      "id": "createdemolition:boom_clay",
+      "count": 2
+    }
+  ]
+}

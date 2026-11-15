@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " E ",
+    "IPI",
+    "III"
+  ],
+  "key": {
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "createdemolition:remote_detonator"
+  }
+}

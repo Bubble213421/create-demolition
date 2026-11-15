@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "createdemolition:boom_clay"
+    },
+    {
+      "item": "createdemolition:boom_clay"
+    },
+    {
+      "item": "createdemolition:boom_clay"
+    }
+  ],
+  "results": [
+    {
+      "id": "createdemolition:boom_clay_charge"
+    }
+  ]
+}

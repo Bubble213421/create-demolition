@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "createdemolition:block/ember_thermite_burning"
+  }
+}

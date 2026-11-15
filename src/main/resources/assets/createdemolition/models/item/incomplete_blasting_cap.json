@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "createdemolition:item/incomplete_blasting_cap"
+  }
+}

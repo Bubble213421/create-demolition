@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "createdemolition:block/volatile_barrel_top",
+    "side": "createdemolition:block/volatile_barrel_side"
+  }
+}

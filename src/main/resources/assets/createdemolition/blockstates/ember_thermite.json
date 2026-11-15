@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "burning=false": {
+      "model": "createdemolition:block/ember_thermite"
+    },
+    "burning=true": {
+      "model": "createdemolition:block/ember_thermite_burning"
+    }
+  }
+}
