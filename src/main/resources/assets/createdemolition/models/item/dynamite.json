@@ -1,6 +1,532 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "createdemolition:item/dynamite"
+ "texture_size": [
+  32,
+  32
+ ],
+ "textures": {
+  "tex": "createdemolition:item/dynamite_3d",
+  "particle": "createdemolition:item/dynamite"
+ },
+ "elements": [
+  {
+   "from": [
+    6,
+    0,
+    6
+   ],
+   "to": [
+    10,
+    14,
+    10
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0.0,
+      0.0,
+      2.0,
+      7.0
+     ],
+     "texture": "#tex"
+    },
+    "south": {
+     "uv": [
+      2.0,
+      0.0,
+      4.0,
+      7.0
+     ],
+     "texture": "#tex"
+    },
+    "east": {
+     "uv": [
+      4.0,
+      0.0,
+      6.0,
+      7.0
+     ],
+     "texture": "#tex"
+    },
+    "west": {
+     "uv": [
+      6.0,
+      0.0,
+      8.0,
+      7.0
+     ],
+     "texture": "#tex"
+    },
+    "up": {
+     "uv": [
+      8.0,
+      0.0,
+      10.0,
+      2.0
+     ],
+     "texture": "#tex"
+    },
+    "down": {
+     "uv": [
+      10.0,
+      0.0,
+      12.0,
+      2.0
+     ],
+     "texture": "#tex"
+    }
+   }
+  },
+  {
+   "from": [
+    8,
+    14,
+    8
+   ],
+   "to": [
+    9,
+    17,
+    9
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      12.0,
+      0.0,
+      12.5,
+      1.5
+     ],
+     "texture": "#tex"
+    },
+    "south": {
+     "uv": [
+      12.5,
+      0.0,
+      13.0,
+      1.5
+     ],
+     "texture": "#tex"
+    },
+    "east": {
+     "uv": [
+      13.0,
+      0.0,
+      13.5,
+      1.5
+     ],
+     "texture": "#tex"
+    },
+    "west": {
+     "uv": [
+      13.5,
+      0.0,
+      14.0,
+      1.5
+     ],
+     "texture": "#tex"
+    },
+    "up": {
+     "uv": [
+      2.0,
+      7.0,
+      2.5,
+      7.5
+     ],
+     "texture": "#tex"
+    }
+   }
+  },
+  {
+   "from": [
+    9,
+    17,
+    8
+   ],
+   "to": [
+    10,
+    19,
+    9
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0.0,
+      7.0,
+      0.5,
+      8.0
+     ],
+     "texture": "#tex"
+    },
+    "south": {
+     "uv": [
+      0.5,
+      7.0,
+      1.0,
+      8.0
+     ],
+     "texture": "#tex"
+    },
+    "east": {
+     "uv": [
+      1.0,
+      7.0,
+      1.5,
+      8.0
+     ],
+     "texture": "#tex"
+    },
+    "west": {
+     "uv": [
+      1.5,
+      7.0,
+      2.0,
+      8.0
+     ],
+     "texture": "#tex"
+    },
+    "up": {
+     "uv": [
+      2.5,
+      7.0,
+      3.0,
+      7.5
+     ],
+     "texture": "#tex"
+    },
+    "down": {
+     "uv": [
+      3.0,
+      7.0,
+      3.5,
+      7.5
+     ],
+     "texture": "#tex"
+    }
+   }
+  },
+  {
+   "from": [
+    11,
+    17,
+    8
+   ],
+   "to": [
+    12,
+    20,
+    9
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      14.0,
+      0.0,
+      14.5,
+      1.5
+     ],
+     "texture": "#tex"
+    },
+    "south": {
+     "uv": [
+      14.5,
+      0.0,
+      15.0,
+      1.5
+     ],
+     "texture": "#tex"
+    },
+    "east": {
+     "uv": [
+      15.0,
+      0.0,
+      15.5,
+      1.5
+     ],
+     "texture": "#tex"
+    },
+    "west": {
+     "uv": [
+      15.5,
+      0.0,
+      16.0,
+      1.5
+     ],
+     "texture": "#tex"
+    },
+    "up": {
+     "uv": [
+      3.5,
+      7.0,
+      4.0,
+      7.5
+     ],
+     "texture": "#tex"
+    },
+    "down": {
+     "uv": [
+      4.0,
+      7.0,
+      4.5,
+      7.5
+     ],
+     "texture": "#tex"
+    }
+   },
+   "light_emission": 15,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15
+   }
+  },
+  {
+   "from": [
+    10,
+    18,
+    8
+   ],
+   "to": [
+    11,
+    19,
+    9
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      4.5,
+      7.0,
+      5.0,
+      7.5
+     ],
+     "texture": "#tex"
+    },
+    "south": {
+     "uv": [
+      5.0,
+      7.0,
+      5.5,
+      7.5
+     ],
+     "texture": "#tex"
+    },
+    "up": {
+     "uv": [
+      5.5,
+      7.0,
+      6.0,
+      7.5
+     ],
+     "texture": "#tex"
+    },
+    "down": {
+     "uv": [
+      6.0,
+      7.0,
+      6.5,
+      7.5
+     ],
+     "texture": "#tex"
+    }
+   }
+  },
+  {
+   "from": [
+    12,
+    18,
+    8
+   ],
+   "to": [
+    13,
+    19,
+    9
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      6.5,
+      7.0,
+      7.0,
+      7.5
+     ],
+     "texture": "#tex"
+    },
+    "south": {
+     "uv": [
+      7.0,
+      7.0,
+      7.5,
+      7.5
+     ],
+     "texture": "#tex"
+    },
+    "east": {
+     "uv": [
+      7.5,
+      7.0,
+      8.0,
+      7.5
+     ],
+     "texture": "#tex"
+    },
+    "up": {
+     "uv": [
+      8.0,
+      7.0,
+      8.5,
+      7.5
+     ],
+     "texture": "#tex"
+    },
+    "down": {
+     "uv": [
+      8.5,
+      7.0,
+      9.0,
+      7.5
+     ],
+     "texture": "#tex"
+    }
+   },
+   "light_emission": 15,
+   "neoforge_data": {
+    "block_light": 15,
+    "sky_light": 15
+   }
   }
+ ],
+ "display": {
+  "gui": {
+   "rotation": [
+    25,
+    -45,
+    -20
+   ],
+   "translation": [
+    0,
+    -0.5,
+    0
+   ],
+   "scale": [
+    0.58,
+    0.58,
+    0.58
+   ]
+  },
+  "ground": {
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "translation": [
+    0,
+    1,
+    0
+   ],
+   "scale": [
+    0.35,
+    0.35,
+    0.35
+   ]
+  },
+  "fixed": {
+   "rotation": [
+    0,
+    0,
+    -30
+   ],
+   "translation": [
+    0,
+    -1,
+    0
+   ],
+   "scale": [
+    0.6,
+    0.6,
+    0.6
+   ]
+  },
+  "thirdperson_righthand": {
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "translation": [
+    0,
+    1.5,
+    1
+   ],
+   "scale": [
+    0.4,
+    0.4,
+    0.4
+   ]
+  },
+  "thirdperson_lefthand": {
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "translation": [
+    0,
+    1.5,
+    1
+   ],
+   "scale": [
+    0.4,
+    0.4,
+    0.4
+   ]
+  },
+  "firstperson_righthand": {
+   "rotation": [
+    0,
+    -20,
+    10
+   ],
+   "translation": [
+    1.5,
+    2,
+    0
+   ],
+   "scale": [
+    0.4,
+    0.4,
+    0.4
+   ]
+  },
+  "firstperson_lefthand": {
+   "rotation": [
+    0,
+    20,
+    -10
+   ],
+   "translation": [
+    1.5,
+    2,
+    0
+   ],
+   "scale": [
+    0.4,
+    0.4,
+    0.4
+   ]
+  },
+  "head": {
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "translation": [
+    0,
+    10,
+    0
+   ],
+   "scale": [
+    0.6,
+    0.6,
+    0.6
+   ]
+  }
+ }
 }
